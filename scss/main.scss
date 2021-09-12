@@ -1,0 +1,63 @@
+$banner-color: #f7dad9;
+$banner-color1: gray;
+$banner-color2: #001b4f;
+
+.carousel__size {
+  height: 410px;
+}
+
+.about {
+  background-color: $banner-color1;
+}
+
+p {
+  text-align: justify;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.imj {
+  text-align: center;
+  width: 100%;
+}
+
+//marquee
+
+$speed: 10s;
+
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+
+  &:hover &__item {
+    animation-play-state: paused;
+  }
+
+  &__seperator {
+    margin: 0 2rem;
+  }
+
+  &__item {
+    display: inline-block;
+    will-change: transform;
+    animation: marquee $speed linear infinite;
+  }
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+// Styling
+.marquee {
+  padding: 1rem 0;
+  color: #fff;
+}
