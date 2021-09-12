@@ -1,0 +1,219 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="keywords" content="htmlcss bootstrap menu, navbar, hover nav menu CSS examples" />
+<meta name="description" content="Bootstrap 5 navbar hover examples for any type of project, Bootstrap 5" />  
+<link rel="stylesheet" href="/hnf/header/header.css">
+
+<title>Header and Footer</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+
+<style type="text/css">
+
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0;  visibility: hidden; transition:.3s; margin-top:0;  }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%; }
+	.navbar .dropdown-menu.fade-up{ top:180%;  }
+	.navbar .nav-item:hover .dropdown-menu{ transition: .3s; opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
+}	
+/* ============ desktop view .end// ============ */
+
+</style>
+</head>
+<body>
+
+
+
+<!-- <header class="section-header"> -->
+
+	<section id="header">
+
+		
+
+<!-- Top Nav Start  -->
+<div class="container-fluid navcolor top-menu d-sm-block">	
+  <ul class = "d-sm-flex flex-row-reverse top-menu__list">
+    <li class="p-1 fs-6"> <a href="http://210.212.196.228/owncloud/index.php/login" target="_blank">CLOUD ACCESS</a></li>
+    <li class="p-1 fs-6"> <a href="http://65.1.68.54/pda/" target="_blank">EDUWISE</a></li>
+    <li class="p-1 fs-6"> <a href="http://210.212.196.229/teqip_prod/index.php/site/login" target="_blank">SAMARTH ERP</a></li>
+		<li class="p-1 fs-6 me-auto"> <a href="#">CET CODE-E042</a></li>
+		<li class="p-1 fs-6"> <a href="#">admissions@pdaengg.com</a></li>
+		<li class="p-1 fs-6"> <a href="#">+91 9448842777</a></li>
+		<li class="p-1 fs-6 bg-warning"> <a href="#">Admissions :</a></li>
+  </ul>
+</div>
+<!-- Top Nav End  -->
+
+ <!-- Top-Header Start-->
+
+ <div class="container mb-2">
+	<div class="row d-flex">
+		<div class="col-sm-1">
+		<a href="#"><img class="img-logo" src="/images/logo.jpg" alt="PDACEK"></a>	
+		</div>
+		<div class="col-sm-4 ps-4">
+			<h2>Poojya Doddappa Appa College of Engineering.</h2>
+			<p class="font">(An autonomous college under VTU, Belagavi, and Recognised by AICTE)</p>
+		</div>
+		
+		<div class="col-sm-4 ms-auto d-none d-lg-block align-self-center justify-content-end">
+			<form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+		</div>
+	</div>
+</div>
+<!-- Top-Header End-->
+
+
+
+<div class="container-fluid navheader m-0 sticky-top">
+
+<!-- ============= COMPONENT ============== -->
+<nav class="navbar navbar-expand-lg navheader navbar-dark sticky-top">
+ <div class="container-fluid">
+ 	 
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="main_nav">
+	<ul class="navbar-nav px-5">
+
+		<li class="nav-item">
+			<a class="nav-link text-white" href="/index.html"> Home </a>
+		</li>
+
+	  <li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> About </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="#"> History </a></li>
+				<li><a class="dropdown-item" href="https://hkes.edu.in/" target="_blank"> Society </a></li>
+				<li><a class="dropdown-item" href="/about/college.html"> College </a></li>
+				<li><a class="dropdown-item" href="/about/vision.html">Vision and Mission</a></li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> Academics </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="/academics/arch.html"> Architecture </a></li>
+				<li><a class="dropdown-item" href="/academics/automobile.html"> Automobile Engineering </a></li>
+				<li><a class="dropdown-item" href="/academics/cement.html"> Ceramic and Cement Technology </a></li>
+				<li><a class="dropdown-item" href="/academics/civil.html"> Civil Engineering</a></li>
+				<li><a class="dropdown-item" href="/academics/cse.html"> Computer Science and Engineering </a></li>
+				<li><a class="dropdown-item" href="/academics/ecepage.html"> Electronics and Communication </a></li>
+				<li><a class="dropdown-item" href="/academics/eee.html"> Electrical and Electronics </a></li>
+				<li><a class="dropdown-item" href="/academics/eie.html"> Electronics and Instrumentation </a></li>
+				<li><a class="dropdown-item" href="/academics/ipe.html"> Industrial Production </a></li>
+				<li><a class="dropdown-item" href="/academics/ise.html"> Information Science and Engineering </a></li>
+				<li><a class="dropdown-item" href="/academics/mech.html"> Mechanical </a></li>
+				<li><a class="dropdown-item" href="/academics/physics.html"> Physcics </a></li>
+				<li><a class="dropdown-item" href="/academics/chemistry.html"> Chemistry </a></li>
+				<li><a class="dropdown-item" href="/academics/maths.html"> Mathematics </a></li>
+				<li><a class="dropdown-item" href="/academics/humanities.html"> Humanities </a></li>
+				<li><a class="dropdown-item" href="/academics/firstyear.html"> First Year Engineering </a></li>
+			</ul>
+		</li>
+
+
+
+
+		<li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> Admissions </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="/admissions/UGadmissions.html"> Under Graduation</a></li>
+				<li><a class="dropdown-item" href="#"> Post Graduation</a></li>
+				<li><a class="dropdown-item" href="#"> Doctoral Programs</a></li>
+			</ul>
+		</li>
+
+
+
+		<li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> Examinations </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="/examination/exam.html"> Controller of Examination</a></li>
+				<li><a class="dropdown-item" href="#"> Guidelines and Policies </a></li>
+				<li><a class="dropdown-item" href="#"> Notifications</a></li>
+				<li><a class="dropdown-item" href="examination/results.html"> Results </a></li>
+				<li><a class="dropdown-item" href="#"> Convocation</a></li>
+			</ul>
+		</li>
+
+
+		<li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> Placements </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="/placements/placements.html"> Overview</a></li>
+				<li><a class="dropdown-item" href="/placements/training.html"> Training </a></li>
+				<li><a class="dropdown-item" href="/placements/internship.html"> Internship</a></li>
+				<li><a class="dropdown-item" href="/placements/stats.html"> Placement Statistics</a></li>
+				<li><a class="dropdown-item" href="/placements/Companies.html"> Companies Visited</a></li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> Research </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="/research/about_research.html"> Overview </a></li>
+				<li><a class="dropdown-item" href="/research/centres.html"> Research centres </a></li>
+				<li><a class="dropdown-item" href="#"> Funded Research Projects </a></li>
+				<li><a class="dropdown-item" href="#"> Innovative Labs </a></li>
+				<li><a class="dropdown-item" href="#"> IIP Cell and MoU </a></li>
+				<li><a class="dropdown-item" href="#"> Publications </a></li>
+			</ul>
+		</li>
+
+		<li class="nav-item dropdown">
+			<a class="nav-link text-white dropdown-toggle" href="#" data-toggle="dropdown"> TEQIP </a>
+			<ul class="dropdown-menu fade-down">
+				<li><a class="dropdown-item" href="#"> About TEQIP-III </a></li>
+				<li><a class="dropdown-item" href="#"> BOG </a></li>
+				<li><a class="dropdown-item" href="#"> Academic Activities</a></li>
+				<li><a class="dropdown-item" href="#"> Procurement</a></li>
+				<li><a class="dropdown-item" href="#"> Equity Action Plan</a></li>
+				<li><a class="dropdown-item" href="#"> Minutes of Meeting </a></li>
+			</ul>
+		</li>
+	
+	</ul>
+	
+
+ </div> <!-- container-fluid.// -->
+</nav>
+<!-- ============= COMPONENT END// ============== -->
+
+</div><!-- container //  -->
+
+
+
+	<!-- </section> -->
+
+
+
+
+
+</header> 
+<!-- section-header.// -->
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

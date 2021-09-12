@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+}
+
+ul li {
+  line-height: 2rem;
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+}
+
+ul a:hover {
+  color: #f8a306;
+}
+
+.footer__color {
+  color: #f8a306;
+}
+/*# sourceMappingURL=footer.css.map */

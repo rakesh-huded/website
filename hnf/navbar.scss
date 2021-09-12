@@ -1,0 +1,49 @@
+.top-bar {
+  background-color: #7c082b;
+}
+
+img {
+  height: 117.734px;
+  width: 111px;
+}
+
+h2 {
+  color: #2a73cc;
+  font-size: 30px;
+  font-family: serif-bold;
+  line-height: 1.16;
+  margin-bottom: 0.5rem;
+  margin-left: 10px;
+}
+
+.font {
+  color: gray;
+  font-size: 0.79rem;
+  font-family: OpenSans, Arial, sans-serif;
+  line-height: 1.4;
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+
+.ftext {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar-nav {
+  flex: 1;
+  margin: auto !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navheader {
+  background-color: #001b4f;
+}
