@@ -1,0 +1,18 @@
+.about {
+  background-color: #f0ebcc;
+}
+
+p {
+  text-align: justify;
+}
+
+.about-image {
+  width: 100%;
+  height: 300px;
+  padding-bottom: 30px;
+}
+
+ul li {
+  text-align: justify;
+}
+/*# sourceMappingURL=about.css.map */
